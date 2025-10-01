@@ -14,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/media/mukwevho.mp4",
     spareImg: "",
   },
   {
@@ -47,10 +47,9 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building wikisynth a researcher AI assistant",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -70,74 +69,91 @@ export const gridItems = [
   },
 ];
 
-
+// mukwevho logo v2.png
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "WikiSynth",
+    des: "Explore and Have AI conduct your research, hone your concepts, and transform each query into an insightful study report.",
+    img: "/projects/wikisynth.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://wikisynth.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "4IR Micseta",
+    des: "4IR Micseta is a platform that provides a comprehensive guide to the 4IR.",
+    img: "/projects/website.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://www.4irtut.co.za/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "Smart Tech Hub",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/p2.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://smarttechub.co.za/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "4IR Micseta Blog",
+    des: "4IR Micseta Blog is a platform that provides a comprehensive guide to the 4IR.",
+    img: "/projects/4IRBlog.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://project-blog-woad.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Artivio",
+    des: "AI Image generator that uses the latest technology to generate images.",
+    img: "/p3.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://artivio-image-forge.lovable.app/",
+  },
+  {
+    id: 6,
+    title: "HPCSA",
+    des: "Recreated the hpcsa website, combining API's",
+    img: "/projects/hpcsa.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.hpcsa.org.za/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Gift exceeded my expectations. His ability to quickly understand project requirements and transform them into a polished solution was impressive. He approaches every task with creativity and precision, making him a reliable partner for any digital project.",
+    name: "Pro Pius Owalawi",
+    title: "4IR Micseta Research Chair",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Gift brings a rare combination of technical expertise and genuine passion for development. He was proactive, attentive to details, and consistently delivered on time. I highly recommend him for anyone looking to scale their digital presence with confidence.",
+    name: "Mashitishi Phurutsi",
+    title: "Director of ICEP",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From start to finish, Gift showcased professionalism and dedication. His solutions were both innovative and practical, tailored exactly to what we needed. Collaborating with him was a smooth experience, and the results spoke for themselves.",
+    name: "Dipono Joel Manaso",
+    title: "Manager of ICEP",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Gift is not only highly skilled but also a true problem-solver. He communicates clearly, works efficiently, and brings a positive energy that makes teamwork enjoyable. His contributions added real value to our project.",
+    name: "Prince Masedi",
+    title: "Lecturer, Tshwane University of Technology",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "What stands out about Gift is his unwavering commitment to excellence. He went above and beyond to ensure that every detail was addressed and that the final outcome aligned with our vision. I would gladly collaborate with him again.",
+    name: "Mrs Annie",
+    title: "CEO of Smart Technology Hub",
+  }
 ];
+
 
 export const companies = [
   {
